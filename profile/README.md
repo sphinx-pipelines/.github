@@ -22,7 +22,7 @@ sphinx-pipeline/                      # The front door of this organization
 │       └── README.md                 # Main document for the organization (you are here)
 │
 ├── sphinx-duo-code/                  # Split repo - Component A (Python code)
-│   ├── codebase/                     # Directory for a demonstration code-base
+│   ├── codebase/                     # Directory for code
 │   |   └── example.py                # Python module with reST docstrings
 |   ├── .gitignore                    # Defensive tracking shield (ignores build artifacts)
 |   ├── LICENSE                       # License
@@ -32,7 +32,7 @@ sphinx-pipeline/                      # The front door of this organization
 │   ├── .github/                      # Hidden GitHub directory
 │   │   └── workflows/                # Directory for repository workflows
 │   │       └── ci.yml                # Advanced split-path CI pipeline
-│   ├── sphinx/
+│   ├── sphinx/                       # Directory for Sphinx
 │   │   ├── resources/                # Directory for engine assets and data drawers
 │   │   │   ├── images/               # Directory for images and visual assets
 │   │   │   ├── rst/                  # Directory for all other reST files
@@ -47,7 +47,7 @@ sphinx-pipeline/                      # The front door of this organization
 |   ├── LICENSE                       # License
 |   └── README.md                     # Main document for the repository
 │
-└── sphinx-mono/                       # Combined repository (unified monorepo).
+└── sphinx-mono/                      # Combined repository (unified monorepo).
     ├── .github/                      # Hidden GitHub directory
     │   └── workflows/                # Directory for repository workflows
     │       └── ci.yml                # Flat internal CI pipeline
