@@ -17,7 +17,7 @@ This workspace serves as a live, interactive reference dedicated to modern Pytho
 
 ```text
 sphinx-pipeline/                      # The front door of this organization
-├── .github/                          # Hidden GitHub directory
+├── .github/                          # Directory for GitHub
 │   └── profile/                      # Directory for control of main organization page
 │       └── README.md                 # Main document for the organization (you are here)
 │
@@ -29,8 +29,8 @@ sphinx-pipeline/                      # The front door of this organization
 |   └── README.md                     # Main document for the repository
 │
 ├── sphinx-duo-docs/                  # Split Repo - Component B (Sphinx pipeline)
-│   ├── .github/                      # Hidden GitHub directory
-│   │   └── workflows/                # Directory for repository workflows
+│   ├── .github/                      # Directory for GitHub
+│   │   └── workflows/                # Directory for GitHub workflows
 │   │       └── ci.yml                # Advanced split-path CI pipeline
 │   ├── sphinx/                       # Directory for Sphinx
 │   │   ├── resources/                # Directory for engine assets and data drawers
@@ -48,8 +48,8 @@ sphinx-pipeline/                      # The front door of this organization
 |   └── README.md                     # Main document for the repository
 │
 └── sphinx-mono/                      # Combined repository (unified monorepo).
-    ├── .github/                      # Hidden GitHub directory
-    │   └── workflows/                # Directory for repository workflows
+    ├── .github/                      # Directory for GitHub
+    │   └── workflows/                # Directory for GitHub workflows
     │       └── ci.yml                # Flat internal CI pipeline
     ├── codebase/                     # Directory for a demonstration code-base
     │   └── example.py                # Python module with reST docstrings
